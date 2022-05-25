@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER EN CSS</title>
+    <link rel="shortcut icon" href="./img/rockeritos-ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io"> <!-- modificar -->
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg"> <!-- modificar -->
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg"> <!-- modificar -->
+</head>
+
+<body>
+
+    <header id="hero" class="hero">
+<!--         <img id="bodies" src="img/bodie-rolling-beatle.png" alt=""> -->
+        <nav class="nav__header">
+            <div class="nav container">
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/bodies.rockeritos" class="footer__icons" target="_blank"><img src="./img/facebook.svg" class="footer__img facebook"></a>
+                    <a href="https://www.instagram.com/bodies_rockeritos/?hl=es-la" class="footer__icons" target="_blank"><img src="./img/instagram.svg" class="footer__img instagram"></a>
+                </div>
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="#hero" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#about" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#history" class="nav__links">Historia</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#question" class="nav__links">Contacto</a>
+                    </li>
+
+                    <img src="./img/x-close.svg" class="nav__close">
+                </ul>
+
+                <div class="nav__menu">
+                    <img src="./img/menu.svg" class="nav__img">
+                </div>
+            </div>
+        </nav>
+
+        <div id="header">
+            <div id="div_logo">
+                <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536 108.1"><defs><style>.a{fill:rgb(46, 145, 249);}.b{fill:rgb(239, 51, 125)}.c{fill:rgb(235, 227, 4);}</style></defs>
+                    <g id="r1">
+                        <path class="a" d="M44,339.61q9.16.34,9.17.81v.18l-1.4,8v.17H52q6.66-8.88,15.78-8.88c2.41,0,3.62.31,3.62.93-1.4,6.2-2.18,9.29-2.33,9.29l-.18.18h-.12a16.79,16.79,0,0,0-4.15-.58q-7.41,0-12.91,8.06-2.34,3.8-6,21.09l-3.21,12.74H42.4q-10.4-.35-10.4-1,9.16-37.28,11.92-51Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="o">
+                        <path class="b" d="M100.54,313.14q21.61,0,27.23,14.66a32.81,32.81,0,0,1,1.29,8.36q-1.65,68.25-2.63,68.25-2.76,9.06-9.35,12.91a35.91,35.91,0,0,1-16.31,3.62q-22.48,0-27.58-15.19A41.57,41.57,0,0,1,71.85,397q1.94-63.58,2.45-65.8,2.58-9.75,7.6-12.91Q88.86,313.14,100.54,313.14Zm-5.9,84.78c.43,3.31,2.08,5,5,5q3.38,0,4.73-3.8.41,0,2.1-62.58c-.39-3.54-2-5.32-4.91-5.32q-5.13,0-5.14,8.36Q94.64,389.34,94.64,397.92Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="c">
+                        <path class="c" d="M159.85,319.51h.88q15.24,0,23.43,11.8Q188,340.9,188,347.9l.41,3.1q0,.53-24.36,2.05l-.53-.76q-.71-16.37-2.22-16.36a2.32,2.32,0,0,0-2-.76q-2.93,0-2.93,4.26,2.81,48.27,3.68,48.27c.9,2,2,3,3.34,3,2.45,0,3.68-2.11,3.68-6.31V384l-.94-14.2q0-.7,17.12-1.46l5.55-.59c.74,0,1.11,2.11,1.11,6.31l.18,5.49q0,16.2-13.62,23.61-6.88,3.33-17.17,3.33-18.47,0-24-15-2.81-3.74-4.79-44.05v-2.17q0-13,7.18-18.11Q146.12,319.51,159.85,319.51Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="k">
+                        <path class="a" d="M216.82,315.47l.41.41-12.15,69.6,33.71-25.89h11v.18q-1.41,1.39-33.54,24.71l-2.17,1.76L242,418.61l-.24.17h-11q-22.68-26.05-26.06-30.38h-.18L199,418.78h-7.83l-.41-.41L209,315.47Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="e">
+                        <path class="b" d="M271.86,312.84h3.22q13.79,0,18.11,14.26,2.1,7.14,2.11,19.34.63,7.6,1.69,35.76,0,.42-25.53,1.52.29,17.25,1.92,17.24c0,.47.86.9,2.57,1.29q4,0,4-5.55l-.24-6a3.11,3.11,0,0,1,1.7-.65l15.54-.64q.87,0,.88,11.28,0,14-13,18.93a35,35,0,0,1-8.77,1.28H273q-15.18,0-19.16-15.54-.76,0-3.62-68.07Q250.19,312.85,271.86,312.84Zm-2.74,24.66,1.52,29.63.64-.23,7.19-.24q-1-33.6-2.52-33.6a3.35,3.35,0,0,0-2.8-1.52H273Q269.11,331.54,269.12,337.5Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="r2">
+                        <path class="b" d="M310,339.61q9.18.34,9.18.81v.18l-1.41,8v.17h.18q6.66-8.88,15.78-8.88c2.41,0,3.62.31,3.62.93-1.4,6.2-2.18,9.29-2.34,9.29l-.17.18h-.12a16.79,16.79,0,0,0-4.15-.58q-7.42,0-12.91,8.06-2.34,3.8-6,21.09l-3.22,12.74h-.11c-2.25-.07-4.13-.16-5.65-.26a4.08,4.08,0,0,1-3.7-5q8.28-33.78,10.87-46.7Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="i">
+                        <path class="c" d="M344.32,337.21q3.63,0,5.32,3.8a6.74,6.74,0,0,1,.29,2c0,2.29-1.25,4-3.74,5.2a6.39,6.39,0,0,1-1.87.29,5.4,5.4,0,0,1-5.32-3.8,5.05,5.05,0,0,1-.35-1.87q0-3.39,3.57-5.2A7.6,7.6,0,0,1,344.32,337.21Zm7.07,11.57L364,389.51l-9.7,3-12.56-40.73Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="t">
+                        <path class="a" d="M367.81,343.87h.12a5.13,5.13,0,0,1,1.75,1q0,.53,10.81.7h1.11q12.51,0,12.5-.82a6.52,6.52,0,0,1,1.64-.88h.12c.27,0,.52,1.11.76,3.33l1,5.9c0,.2-.43.36-1.28.47-1.29-2.92-2.28-4.65-3-5.2,0-.27-.95-.56-2.86-.87q-2.4-.24-4.38-.24h-2.46v26.06c0,2.15.34,3.22,1,3.22,0,.07.25.11.76.11h3l.23.3v1.11a.47.47,0,0,1-.41.46c-1-.07-2.67-.11-5-.11h-2.69q-4.38,0-6,.11c-.27,0-.41-.15-.41-.46v-1c0-.27.06-.41.17-.41h3.1c1.13,0,1.7-.48,1.7-1.46l.05-.41.12-11V347.26h-2.8q-5.79,0-6.84,1.23a10.79,10.79,0,0,0-2.69,4.26c-.19.43-.33.65-.41.65h-.06c-.7,0-1.13-.16-1.28-.47l2.34-8.82Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="a">
+                        <path class="b" d="M459.49,312.84q26.17,0,41.95,17.24,9.06,11.1,9.06,26.53,0,21.61-18.64,34.83-8.48,4.6-16.18,4.61-9.53,0-12.27-5.84a11.88,11.88,0,0,1-.88-3.92q-6.78,9.42-16.54,9.41h-2.86q-11.22,0-16-9.76a25.46,25.46,0,0,1-1.93-10.16v-.88q0-19.63,15.6-30a26.61,26.61,0,0,1,13.38-3.74q9.52,0,14.2,7.83h.35q2.8-5.73,3.22-5.73h10.28l.18.18h.17q-7.95,31.66-9.23,38.09v.88c0,2.38,1.91,3.56,5.73,3.56q8.58,0,16.53-13.9a36.41,36.41,0,0,0,3.51-16.19q0-19.75-20.8-29.33A51.21,51.21,0,0,0,459.14,323Q431,323,415.9,345.57a46.25,46.25,0,0,0-7.07,25.06v.88q0,26.6,26.64,37.16a60.13,60.13,0,0,0,16.72,2.69h4.26q17.24,0,34.48-11.39h.17l4.85,6.95q-2,2.06-9.81,6.55-15.5,7.47-29.16,7.47h-4.27q-24.76,0-41.6-16-13.5-13.67-13.5-33.59v-.53q0-29.51,25.77-47.86A66.78,66.78,0,0,1,459.49,312.84Zm-21.33,62.59V376q0,8.6,6.55,10.52l2,.18h1.76q7,0,12.27-9.06,1.39-3,4.79-17.47c0-2.26-1.19-4.74-3.57-7.42a10,10,0,0,0-6.72-2.52q-10.46,0-15.83,15.66A34.23,34.23,0,0,0,438.16,375.43Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                    <g id="s">
+                        <path class="c" d="M537.32,312.84h1.46q13.8,0,19.05,11.57,1.57,2.64,3.92,23.61-.53.47-20.51,2.75L538.37,330c-.58-1.36-1.42-2-2.51-2q-3.92,0-3.91,3.5,1.57,15.72,2.86,15.72,1.05,1.88,10.58,9.76,13.85,11.69,16.36,14.49t4.15,10.34q2.1,16.48,2.1,19.29,0,13.67-16.6,18.64a51.8,51.8,0,0,1-10.75,1.22q-14.71,0-19.46-12.62-1.63-3.33-4-26.12,18.28-2.44,20.74-2.45v.18q2.46,24.24,3.69,24.24a2.29,2.29,0,0,0,1.46.65h1.46c1.67-.35,2.51-1.19,2.51-2.52v-1.05q-1.4-16.94-2.92-16.94-.7-1.63-15.95-15.14Q513.95,357.91,514,352.58q-.83,0-2.51-18.41v-2.28q0-9.34,10.34-15.54A35.94,35.94,0,0,1,537.32,312.84Z" transform="translate(-32 -312.84)"/>
+                    </g>
+                </svg>
+            </div>
+<!--         <section class="hero__container container">
+            <div class="hero__texts">
+                <h1 class="hero__title">Bodies con rock
+                </h1>
+                <p class="hero__paragraph">Bodies con rock para l@s más peques</p>
+                <a href="#about" class="cta">Conocenos</a>
+            </div>
+            <figure class="hero__picture">
+                <img src="./img/bodie-rolling-beatle.png" class="hero__img">
+            </figure>
+            </section> -->
+
+            <section class="testimony">
+                <div class="testimony__container container">
+                    <img src="./img/leftarrow.svg" class="testimony__arrow" id="before">
+
+                    <section class="testimony__body testimony__body--show" data-id="1">
+                        <figure class="testimony__picture cyan">
+                            <img src="./img/bodie-almendra.png" class="testimony__img">
+                        </figure>
+                        <figure id="picture2" class="testimony__picture magenta">
+                            <img src="./img/bodies-floyd.png" class="testimony__img">
+                        </figure>
+                        <figure id="picture3" class="testimony__picture yellow">
+                            <img src="./img/bodie-queen.png" class="testimony__img">
+                        </figure>
+                    </section>
+
+                    <section class="testimony__body" data-id="2">
+                        <figure class="testimony__picture magenta">
+                            <img src="./img/bodies-rolling-beatle.png" class="testimony__img">
+                        </figure>
+                        <figure class="testimony__picture yellow">
+                            <img src="./img/bodie-bob.png" class="testimony__img">
+                        </figure>
+                        <figure class="testimony__picture cyan">
+                            <img src="./img/bodies-redondos.png" class="testimony__img">
+                        </figure>
+                    </section>
+
+                    <img src="./img/rightarrow.svg" class="testimony__arrow" id="next">
+                </div>
+
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container about">
+            <h2 class="subtitle">¿QUIÉNES SOMOS?</h2>
+            <p class="about__paragraph">Hace más de 10 años que en rOckerit@s nos dedicamos a pintar bodies y remeritas de manera artesanal. Trabajamos a pedido y también realizamos diseños personalizados. Encontrarán en nuestros productos el cuidado de cada detalle y diseños bien variados como bandas de rock, caricaturas, equipos de fútbol y demás.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./img/check.svg" class="about__icon">
+                    <h3 class="about__title">Bodies de calidad</h3>
+                    <p class="about__paragrah">Utilizamos bodies de excelente calidad como Naranjo o Gamisé</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./img/paint.svg" class="about__icon">
+                    <h3 class="about__title">Pintados a mano</h3>
+                    <p class="about__paragrah">Nuestros bodies son pintados de manera artesanal</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./img/remera.svg" class="about__icon">
+                    <h3 class="about__title">Remeras Batik</h3>
+                    <p class="about__paragrah">También hacemos remeras batik multicolor</p>
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <section id="history" class="history">
+            <div class="history__container container">
+                <div class="knowledege__texts">
+                    <div class="history__title">
+                        <h2 id="history__subtitle" class="subtitle">La historia de</h2>
+                        <img class="history__logo" src="img/rockeritos.svg" alt="rockeritos">
+                    </div>
+                    <p class="history__paragraph">Comienza a los poquitos meses de vida de mi primer sobrino, Joaquín.<br>                      
+                        Queríamos un bodie de rock y no lo conseguíamos. Por eso llegamos a la conclusión de que lo mejor sería hacerlo nosotros mismos, y así fue.<br><br>  
+                        Pintamos un bodie de Pescado Rabioso y otro de Los Redondos. Los dos primeros bodies que hicimos. Claro que para ese entonces aún no existía ni "rOckerit@s” ni la idea de empezar a pintar para los demás bebés.<br><br> 
+                        Pero llegó un día en el que nos preguntamos: ¿Habrá más gente que quiera bodies con rock y no los consiga? Y fue así cómo comenzaron las ventas y la historia de estos bodies rockeros.<br><br>
+                        Tenemos el honor de decir que fuimos los pioneros. Sabemos que nuestros bodies son especiales, porque son artesanales y porque cada bodie que se pinta se hace desde el amor al arte y al rock.
+                </div>
+
+                <figure class="history__picture">
+                    <img src="./img/joaco.jpg" class="history__img">
+                </figure>
+            </div>
+        </section>
+
+
+
+
+        <section id="question" class="questions container">
+            <h2 class="subtitle">Pedidos o consultas</h2>
+            <p class="questions__paragraph">Dejanos tu mensaje y enseguida nos contactaremos con vos</p>
+            <form class="questions__form" action="https://formspree.io/f/xvollzap" method="POST">
+                <label><input class="questions__input" type="text" name="name" placeholder="Nombre"></label>
+                <label><input class="questions__input" type="email" name="email" placeholder="Email"></label>
+                <label><textarea class="questions__input questions__textarea" name="message" placeholder="Escribe tu mensaje aquí..."></textarea></label>
+                <button class="questions__submit" type="submit">Enviar</button>
+            </form>
+
+        </section>
+        
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <img class="footer__logo" src="img/rockeritos.svg" alt="rockeritos">
+            <nav class="nav nav--footer">
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="footer__social">
+                <h2 class="footer__newsletter">Seguinos en las redes</h2>
+                <a href="https://www.facebook.com/bodies.rockeritos" class="footer__icons" target="_blank"><img src="./img/facebook.svg" class="footer__img facebook"></a>
+                <a href="https://www.instagram.com/bodies_rockeritos/?hl=es-la" class="footer__icons" target="_blank"><img src="./img/instagram.svg" class="footer__img instagram"></a>
+            </div>
+        </section>
+
+        <section class="footer__copy container">
+            <!-- <h3 class="footer__copyright">&copy; Bodies rOckeritos - 2022</h3> -->
+            <h3 class="footer__copyright">Desarrollado por Gonzalo Díaz Rusconi</h3>
+                <a href="https://www.linkedin.com/in/gonzalo-d%C3%ADaz-rusconi-9519bba2/" target="_blank"><img src="./img/linkedin.svg" class="super-footer-icons" ></a>
+                <a href="https://github.com/gonadr09" target="_blank"><img src="./img/github.svg" class="super-footer-icons"></a>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
